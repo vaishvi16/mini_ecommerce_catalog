@@ -17,6 +17,7 @@ class _SplashScreenScreenState extends State<SplashScreen> {
     checkUser();
   }
 
+
   Future<void> checkUser() async {
     final authProvider =
     Provider.of<AuthProvider>(context, listen: false);
